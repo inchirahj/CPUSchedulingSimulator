@@ -18,17 +18,9 @@ While your simulation is running, it should print each second:
 - The job currently running on the CPU.
 - Any jobs waiting to be run.
 
-For example, one second of execution might look like this:
-Second 67:
-Job #32 arrives, requiring 4 seconds to complete. Job #23 is running on the CPU, with 2 seconds left. Jobs #24, 25, 26, 27, 28, 29, 30, 31 are waiting.
-This should print for every second of the simulation.
-
 When the simulation ends, you should also print information for each job:
 - The job number
 - When that job arrived
 - When that job finished
 - The job’s turnaround time
 - The job’s response time
-For example, one job’s information might be:
-Job #4 arrived at time 6 and finished at time 13. Its turnaround time was 7 and response time was 3.
-This information should be printed for each job. If the job did not finish, print just its number and its arrival time.
